@@ -23,15 +23,12 @@ public class CalculadoraDeAumento {
 		switch (profissao) {
 			case "A":
 				aumento = (int) (salario * 0.1);
-				//NovoSalario = aumento + salario;
 				break;
 			case "B":
 				aumento = (int) (salario * 0.15);
-				//NovoSalario = aumento + salario;
 				break;
 			case "C":
 				aumento = (int) (salario * 0.2);
-				//NovoSalario = aumento + salario;
 				break;
 		}
 		NovoSalario = aumento + salario;
